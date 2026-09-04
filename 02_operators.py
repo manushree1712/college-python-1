@@ -52,7 +52,7 @@ print(not t)
 # #assignment operators
 # #=, +=, -=, *=, /=, //=, **=, %=
 
-k = 9
+k = 7
 k+= 9
 k*=4
 k/=8
