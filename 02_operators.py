@@ -77,3 +77,7 @@ x=6
 print(x>3)
 
 print(x:=6>3)
+
+# bitwise operators
+
+# 2^0 = 1, 2^1 = 2, 2^2 = 4..... in book

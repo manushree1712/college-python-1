@@ -39,10 +39,34 @@
 # print(f"the result of {x} and {y} is {result:.3f}")
 
 
-n1 = input("enter:")
-n2 = input("enter:")
+# n1 = input("enter:")
+# n2 = input("enter:")
 
-result = n1 + n2
+# result = n1 + n2
 
-print(result)
-print(int(n1) + int(n2))
+# print(result)
+# print(int(n1) + int(n2))
+
+
+# number = int(input("enter a number:"))
+# print(number%2==0 and number>=0)
+
+# number2 = int(input("enter a number:"))
+# print(number2>=50 and number2<=100)
+
+# number2 = int(input("enter a number:"))
+# print(not(number2>=50 and number2<=100))
+# # print(number2>=50 or number2<=100)
+
+# number3 = int(input("enter a number:"))
+# print(number3%3==0 and number3%5==0)
+
+n = False
+print(int(n))
+
+print(5 & 10) # and
+print(5 | 10) # or
+print(8^10) # xor
+print(~10) # bitwise not
+print(10<<5) # left shift number*2^b
+print(15>>1) # right shift 01111 -> 0111 number/2^b
