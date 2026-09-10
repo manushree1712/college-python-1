@@ -92,3 +92,58 @@ num = 1
 for i in range(1,n+1):
     num = num*i
 print(num)
+
+
+# 10/9/26
+
+
+
+n = int(input("enter a number: "))
+
+for i in range(1,n+1):
+    if i%5 == 0:
+        print((i))
+        
+        
+        
+
+n = int(input("enter a number: "))
+count = 0
+
+for i in range(1,n+1):
+    if i%5 == 0:
+        count = count + 1        # count +=1
+        # print((i))
+print(f"there are {count} numbers divisible by 5")
+
+
+
+
+name = (input("enter name:"))
+
+for i in name:
+    print(i)
+
+
+
+
+
+n = (input("enter a number:"))
+sum=0
+
+for i in n:
+    sum=sum+int(i)   #converting i-string into i-integer to add it one by one
+print(sum)    
+
+
+
+n = int(input("enter how many numbers do you want:"))
+
+
+for i in range(1,n+1):
+
+    num=int(input(f"give a number:"))
+    
+    print(num)
+
+
