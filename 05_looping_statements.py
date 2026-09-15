@@ -176,13 +176,13 @@
 
 
 
-for i in range(5):
-    print(i, end="") # prints everything beside e/o due to end tag
+# for i in range(5):
+#     print(i, end="") # prints everything beside e/o due to end tag
     
-for i in range(5):
-    print("*", end="")
+# for i in range(5):
+#     print("*", end="")
     
-print("hi"*3)
+# print("hi"*3)
 
 # print("*"*1)
 # print("*"*2)
@@ -197,8 +197,40 @@ print("hi"*3)
 #     print("*"*i)
     
 
-n = int(input("enter:"))
+# n = int(input("enter:"))
 
     
-for i in range(1, n+1):
-    print("#"*n)
+# for i in range(1, n+1):
+#     print("#"*n)
+
+# 12/9/26
+
+# n = int(input("enter a number: "))
+
+# for i in range(1, n+1):
+#     print(str(i)*i)
+    
+# n = int(input("enter a number: "))
+
+# for i in range(1, n+1):
+#     print(str(i)*5)
+
+
+
+# n = int(input("enter:"))
+# num = 1
+
+# for i in range(1, n+1):
+#     for j in range(i):
+#        print(num, end="")
+#        num+=1
+#     print()
+       
+       
+# 15/9/26
+
+for i in range(1,4):
+   print(i)
+   for j in range(10,14):
+      print(j)
+      
