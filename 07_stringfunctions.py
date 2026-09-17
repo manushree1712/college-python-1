@@ -11,7 +11,12 @@
 
 name = "hello world"
 
-print(name[7])
+print(name[0:5])  # direct upto 4
+print(name[6:])   # starts from 6
+print(name[:])    # gives full word
+print(name[0:8:2]) # 0 to 7 and skips odd
+print(name[::2])  # gives full but skips odd index
+print(name[::-1]) # reverses the word
 
 
 # ---------------------------------------------------------------------------
@@ -21,3 +26,19 @@ print(name[7])
 
 name = 'python'
 print(name[0:5])
+
+
+
+# 17/9/26
+
+# we use length function to find the length of the given string
+
+
+name = "python"
+print(len(name))
+
+name = str(input("enter name: "))
+print(len(name))
+
+
+
