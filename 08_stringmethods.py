@@ -1,10 +1,10 @@
-# 17/9/26
+# # 17/9/26
 
 
-# string methods
+# # string methods
 
-# 1) upper method - converts all lowercase letters to uppercase letters
-#         name.upper()
+# # 1) upper method - converts all lowercase letters to uppercase letters
+# #         name.upper()
         
 name = "python"
 print(name.upper())
@@ -13,15 +13,15 @@ print("python".upper())
 name = input("enter name: ")
 print(name.upper())
 
-# #  2) lower method - converts all uppercase letters to lowercase letters
-#         #  name.lower()
+# # #  2) lower method - converts all uppercase letters to lowercase letters
+# #         #  name.lower()
         
 low = "FoOd"
 print(low.lower())
 
-#  3) capitalize method - converts only first character into 
-#       uppercase rest are left as lowercase
-#          name.capitalize()
+# #  3) capitalize method - converts only first character into 
+# #       uppercase rest are left as lowercase
+# #          name.capitalize()
         
 cap = "i love python"
 print(cap.capitalize())
@@ -35,8 +35,8 @@ print(cap3.capitalize())
 cap4 = input("enterrrrr: ")
 print(cap4.capitalize())
 
-#  4) title method - converts first letter of eacch word into uppsercase
-#         name.title()
+# #  4) title method - converts first letter of eacch word into uppsercase
+# #         name.title()
         
 title1 = "i love food"
 print(title1.title())
@@ -51,8 +51,8 @@ title4 = input("enterrrrr: ")
 print(title4.title())
 
 
-#  5) swapcase method - converts lower to upppercase and vice versa
-#          name.swapcase()
+# #  5) swapcase method - converts lower to upppercase and vice versa
+# #          name.swapcase()
         
 name = "FOOOD i want"
 print(name.swapcase())
@@ -62,10 +62,10 @@ swap = input("enters:")
 print(swap.swapcase())
 
 
-#  6) strip method - it is used to remove the wide spaces from the
-# begininng to the ending of the string, it wont remove the spaces
-# in between the string
-#         name.strip()
+# #  6) strip method - it is used to remove the wide spaces from the
+# # begininng to the ending of the string, it wont remove the spaces
+# # in between the string
+# #         name.strip()
 
 name ="                  this is      python                    "
 
@@ -76,3 +76,35 @@ name2 = input("enterrrrr:")
 
 print(name2)
 print(name2.strip())
+
+name3 = "*******lalalalalalalalala*************"
+print(name3.strip("*"))
+
+#  7) L string - removes spaces only from the beginning of the string
+
+stripL = "                        whteverr                          "
+print(stripL.lstrip())
+
+stripL2 = "$$$$$$$$$$$$$$$$$$dollllla bills$$$$$$$$$$$$$$$$$$$$$$$"
+print(stripL2.lstrip("$"))
+
+#  8) R string - removes spaces only from the ending of the string only
+
+
+stripR = "                        whteverr                          "
+print(stripR.rstrip())
+
+stripR2 = "$$$$$$$$$$$$$$$$$$dollllla bills$$$$$$$$$$$$$$$$$$$$$$$"
+print(stripR2.rstrip("$"))
+
+
+#  9) replace method - replaces a piece of text with other
+#               syntax:    name.replace(old,new)
+#                                   - old word is old and is supposed to be replace by new
+
+name = "i like icecream"
+
+print(name)
+
+print(name.replace("icecream","panipuri"))
+
