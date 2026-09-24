@@ -70,3 +70,11 @@ print(8^10) # xor
 print(~10) # bitwise not
 print(10<<5) # left shift number*2^b
 print(15>>1) # right shift 01111 -> 0111 number/2^b
+
+
+a = int(input("enter: "))
+b = int(input("enter: "))
+print(a+b)
+
+x = input()
+print(type(x))

@@ -81,3 +81,15 @@ print(x:=6>3)
 # bitwise operators
 
 # 2^0 = 1, 2^1 = 2, 2^2 = 4..... in book
+
+
+a = int(input())
+b = int(input())
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)

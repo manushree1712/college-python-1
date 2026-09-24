@@ -234,3 +234,8 @@ for i in range(1,4):
    for j in range(10,14):
       print(j)
       
+
+n = int(input())
+
+for i in range(1,n+1):
+    print(2**i, end=" ")
